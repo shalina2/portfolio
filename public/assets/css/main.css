@@ -29,9 +29,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-body {
+/* body {
 	line-height: 1;
-}
+} */
 
 ol, ul {
 	list-style: none;
@@ -74,7 +74,7 @@ input, select, textarea {
 
 /* Basic */
 
-	html {
+	/* html {
 		box-sizing: border-box;
 	}
 
@@ -100,7 +100,7 @@ input, select, textarea {
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
-		}
+		} */
 
 	input, textarea, select {
 		font-family: 'Source Sans Pro', sans-serif;
@@ -212,7 +212,7 @@ input, select, textarea {
 
 /* Container */
 
-	.container {
+	/* .container {
 		margin: 0 auto;
 		max-width: 100%;
 		width: 1400px;
@@ -260,7 +260,7 @@ input, select, textarea {
 
 /* Row */
 
-	.row {
+	/* .row {
 		display: flex;
 		flex-wrap: wrap;
 		box-sizing: border-box;
@@ -1808,7 +1808,7 @@ input, select, textarea {
 	}
 
 		ol li {
-			padding-left: 0.25em;
+			padding-left: 0.25em; 
 		}
 
 /* Icons */
@@ -1831,7 +1831,7 @@ input, select, textarea {
 			line-height: 2em;
 			text-align: center;
 			border: 0;
-		}
+		} */
 
 /* Form */
 
@@ -2251,7 +2251,7 @@ input, select, textarea {
 
 /* Wide */
 
-	@media screen and (min-width: 961px) and (max-width: 1880px) {
+	/* @media screen and (min-width: 961px) and (max-width: 1880px) {
 
 		/* Basic */
 
@@ -2608,4 +2608,4 @@ input, select, textarea {
 					margin-top: 0;
 				}
 
-	}
+	} 

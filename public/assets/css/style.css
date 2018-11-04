@@ -7,3 +7,6 @@
     display: inline;
 
 }
+@mediaquery {
+    //makes it responsive
+}
